@@ -1,0 +1,22 @@
+# Generato da pubblica.mjs prepara — non modificare a mano: rigenera dopo ogni modifica al sito.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-Z8Y4HvOgDYpaHCPaAaCWQEd9ifhCzPiEhHnLRDKLC1E=' 'sha256-WZf6hAtjCgDGqh1iUZ3aRttKueHrnj2NftHoft5rI94=' 'sha256-Sqkv7bB4BAKbDF2irQK49AiK2e/3ZBIieM/gWs3+tNQ='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' blob:; connect-src 'self' data: blob:; frame-src 'none'; worker-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(), usb=(), browsing-topics=()
+  Cross-Origin-Opener-Policy: same-origin
+
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/vendor/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# gli indirizzi tecnici *.pages.dev non devono finire su Google: conta solo il dominio del cliente
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex
